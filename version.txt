@@ -1,0 +1,32 @@
+VSVersionInfo(
+    ffi=FixedFileInfo(
+        filevers=(1, 0, 0, 0),
+        prodvers=(1, 0, 0, 0),
+        mask=0x3f,
+        flags=0x0,
+        OS=0x40004,
+        fileType=0x1,
+        subtype=0x0,
+        date=(0, 0)
+    ),
+    kids=[
+        StringFileInfo(
+            [
+                StringTable(
+                    '040904B0',
+                    [
+                        StringStruct('CompanyName', 'ChickenWithACrown'),
+                        StringStruct('FileDescription', 'It categorize videos from a specified YouTube channel into "Good," "Neutral," and "Bad" based on engagement metrics like likes and views. It process and track the total number of videos, classifying them according to predefined rules: "Good" videos have at least 100 views and 50 likes, "Neutral" videos have between 30 and 90 views or between 20 and 40 likes, and "Bad" videos have fewer than 30 views or fewer than 20 likes. It save the results in a CSV file and generate new video ideas based on successful videos for further content creation.'),
+                        StringStruct('FileVersion', '1.0.0.0'),
+                        StringStruct('InternalName', 'YouTube Help'),
+                        StringStruct('LegalCopyright', '©2024 ChickenWithACrown. All rights reserved.'),
+                        StringStruct('OriginalFilename', 'YouTube Help.exe'),
+                        StringStruct('ProductName', 'YouTube Help'),
+                        StringStruct('ProductVersion', '1.0.0.0')
+                    ]
+                )
+            ]
+        ),
+        VarFileInfo([VarStruct('Translation', [1033, 1200])])
+    ]
+)
