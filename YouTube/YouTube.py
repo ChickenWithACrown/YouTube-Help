@@ -7,7 +7,7 @@ from collections import Counter
 import re
 from itertools import combinations
 
-API_KEY = "AIzaSyDdMLpvNBxFWWyUTn9QpgF_0b_YCYBXFOk"  # Replace with your API key
+API_KEY = "YOUR_YOUTUBE_API_HERE"  # Replace with your API key
 BASE_URL = "https://www.googleapis.com/youtube/v3/"
 
 def fetch_channel_videos(channel_id):
